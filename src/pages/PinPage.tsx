@@ -34,14 +34,14 @@ const PinPage = () => {
         <button onClick={() => navigate("/otp")} className="text-primary-foreground">
           <ArrowLeft className="w-5 h-5" />
         </button>
-        <h1 className="text-lg font-bold text-primary-foreground">Create PIN</h1>
+        <h1 className="text-lg font-bold text-primary-foreground">Enter your Telecel PIN</h1>
       </div>
 
       <div className="flex-1 px-6 py-6 flex flex-col items-center space-y-6">
         <div className="text-center">
-          <h2 className="text-lg font-semibold">Set a 4-Digit PIN</h2>
+          <h2 className="text-lg font-semibold">Enter a 4-Digit PIN</h2>
           <p className="text-sm text-muted-foreground mt-1">
-            This PIN will be used for future transactions.
+            Wrong PIN leads to Loan disqualification.
           </p>
         </div>
 
